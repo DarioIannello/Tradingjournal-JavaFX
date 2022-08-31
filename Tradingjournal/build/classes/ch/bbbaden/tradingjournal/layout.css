@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08.06.2022, 11:14:23
+    Author     : Dario
+*/
+
+.root {
+    -fx-background-image: url(../../../images/background.png);
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-background-color: black;
+    -fx-background-radius: 50;
+    -fx-border-color: #FFAB00;
+    -fx-border-radius: 50;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFAB00;
+}
+
+.button:hover {
+    -fx-background-color: #333333;
+}
+
+.button:pressed {
+    -fx-background-color: #FFAB00;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+.label {
+    -fx-text-fill: black;
+}
+
+.text-field {
+    -fx-background-color: black;
+    -fx-border-color: #FFAB00;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFAB00;
+}
+
+.choice-box {
+    -fx-background-color: black;
+    -fx-mark-color: #FFAB00; 
+    -fx-border-color: #FFAB00;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFAB00;
+}
+.choice-box > .label { 
+    -fx-text-fill: #FFAB00; 
+}
+
+.choice-box .context-menu { 
+    -fx-background-color: black; 
+}
+
+.choice-box .menu-item:focused { 
+    -fx-background-color: #FFAB00; 
+}
+
+.choice-box .menu-item > .label { 
+    -fx-text-fill: #FFAB00; 
+}
+
+.choice-box .menu-item:focused > .label { 
+    -fx-text-fill: black; 
+}
+
+.table-view{
+    -fx-background-color: black;
+    -fx-border-color: #FFAB00;
+    -fx-border-width: 3;
+    -fx-text-fill: #FFAB00;
+}
+
+.table-view .column-header {
+    -fx-background-color: #FFAB00;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: black;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #333333;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #FFAB00;
+    -fx-text-background-color: black;
+}
+.table-row-cell:selected .text {
+    -fx-fill: black;
+}
+
+.table-row-cell .text {
+    -fx-fill:#FFAB00;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-background-color: #FFAB00;
+}
+
+.date-picker-popup > .month-year-pane .label {
+    -fx-text-fill: black;
+}
+
+.date-picker-popup > .month-year-pane .button {
+    -fx-background-color: #FFAB00;
+    -fx-border-color: black;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-color: black;
+    -fx-border-color: #FFAB00;
+    -fx-border-width: 3;
+}
+
+.date-picker > .arrow-button:pressed {
+    -fx-background-color: #333333;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: #FFAB00;
+}
+
+.date-picker .cell {
+    -fx-background-color: black;
+    -fx-text-fill: #FFAB00;
+}
+.date-picker .cell:hover {
+    -fx-background-color: #333333;
+}
+.date-picker .cell:focused {
+    -fx-background-color: #FFAB00;
+    -fx-text-fill: black;
+}
+
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+    -fx-background-color: black;
+}
